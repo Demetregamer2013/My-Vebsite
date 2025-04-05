@@ -207,6 +207,8 @@ button {
   border-radius: 10px;
   padding: 20px;
   padding: 24px 24px 0px;
+  width: 100%;
+  min-width: 0%;
 }
 
 .portfolio-card h2 {
@@ -218,6 +220,7 @@ button {
 
 .badge-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 30px 0px;
 }
@@ -237,7 +240,7 @@ button {
   text-decoration: none;
 }
 
-.card-link h2:hover {
+.card-link:hover h2 {
   text-decoration: underline;
 }
 
